@@ -1,6 +1,6 @@
 from flask_restful import Resource
-# Criar os endpoints de Funcionario: GET, POST, PUT, DELETE
-class Funcionario(Resource):
+
+class Cliente(Resource):
         def get(self, id):
                 return {"msg": "get executado"}, 200
         def post(self, id):
